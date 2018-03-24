@@ -1,0 +1,112 @@
+div {
+	padding: 0;
+	margin: 0;
+}
+
+div div {
+	background: #DD5B54;
+	position: relative;
+}
+
+.android {
+	height: 404px;
+	width: 334px;
+	margin: 100px auto;
+}
+
+.head {
+	height: 100px;
+	width: 220px;
+	border-radius: 110px 110px 0 0;
+	top: 32px;
+}
+
+.l_eye, .r_eye {
+	height: 40px;
+	width: 30px;
+	border-radius: 15px;
+	top: 42px;
+	background: #fff;
+	position: absolute;
+}
+
+.l_eye {
+	left: 60px;
+}
+
+.r_eye {
+	right: 60px;
+}
+
+.l_eyeball, .r_eyeball {
+	height: 15px;
+	width: 15px;
+	top: 67px;
+	border-radius: 10px;
+	background: #000;
+	position: absolute;
+}
+
+.l_eyeball {
+	left: 72px;
+}
+
+.r_eyeball {
+	right: 72px;
+}
+
+.l_ant, .r_ant {
+	height: 50px;
+	width: 6px;
+	top: -34px;
+	position: absolute;
+}
+
+.l_ant {
+	left: 50px;
+	transform: rotate(-30deg);
+}
+
+.r_ant {
+	right: 50px;
+	transform: rotate(30deg);
+}
+
+.body {
+	height: 184px;
+	width: 220px;
+	top: 40px;
+	border-radius: 0 0 25px 25px;
+}
+
+.l_arm, .r_arm, .l_leg, .r_leg {
+	width: 50px;
+	position: absolute;
+}
+
+.l_arm, .r_arm {
+	height: 150px;
+	border-radius: 25px;
+}
+
+.l_arm {
+	left: -58px;
+}
+
+.r_arm {
+	right: -58px;
+}
+
+.l_leg, .r_leg {
+	height: 80px;
+	border-radius: 0 0 25px 25px;
+	top: 182px;
+}
+
+.l_leg {
+	left: 45px;
+}
+
+.r_leg {
+	right: 45px;
+}
